@@ -1,0 +1,50 @@
+.font {
+    font-size: 0.8rem;
+}
+.tax {
+    /* border: 1px solid rgb(232, 232, 232); */
+    padding: 10px 10px 10px 50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(190, 189, 189);
+}
+.icon {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.icon:hover {
+    opacity: 1;
+}
+.tax-info {
+    display: none;
+}
+
+@media screen and (max-width: 990px) {
+    .thousand {
+        display: none !important;
+        /* gap: 50px !important; */
+        margin-right: 20px !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .seven {
+        display: none !important;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 555px) {
+    .four {
+        display: none !important;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .three {
+        display: none !important;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 330px) {
+    .two {
+        display: none !important;
+    }
+}

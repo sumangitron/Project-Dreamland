@@ -1,0 +1,12 @@
+@media screen and (max-width: 767px) {
+    .res {
+      display: flex !important;
+      flex-direction: column !important;
+      width: 100% !important;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .response {
+      width: 100% !important;
+    }
+  }
